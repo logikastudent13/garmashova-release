@@ -6,7 +6,9 @@ body {
     line-height: 1.6;
     background-image: url(https://i.pinimg.com/736x/3a/c6/ad/3ac6ad4c88b00411377bee2407f95af2.jpg);
 }
-
+section p{
+    margin: 0;
+}
 
 /* Шапка */
  .header{
@@ -89,10 +91,10 @@ body {
 
 /* Розділ 2: Галерея зображень */
 .section-2 {
-    background-color: #e9f7ff;
+    background-color: #e4d19f;
     padding: 1.5rem;
     border-radius: 10px;
-    border: 1px solid #b3e5fc;
+
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -111,7 +113,7 @@ body {
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    border: 1px solid #90caf9;
+   ;
 }
 
 .section-2 p {
